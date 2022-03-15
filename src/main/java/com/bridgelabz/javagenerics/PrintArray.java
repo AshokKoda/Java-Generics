@@ -21,7 +21,7 @@ public class PrintArray<T> {
 
 		String[] stringArr = new String[] { "hello", "world", "how are you?", "Hey!!" };
 		PrintArray<String> strPrintArr = new PrintArray<>();
-		//strPrintArr.toPrint(stringArr);
+		strPrintArr.toPrint(stringArr);
 
 	}
 
