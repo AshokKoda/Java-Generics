@@ -1,4 +1,4 @@
-package com.javagenerics;
+package com.bridgelabz.javagenerics;
 
 public class PrintArray<T> {
 
