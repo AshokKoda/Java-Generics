@@ -19,5 +19,11 @@ public class JavaGenericsTest {
 		float z = (float) (Math.random() * 1000);
 		System.out.println(logic.findMax(x, y, z));
 		System.out.println("-----------------------------");
+		
+		String s1 = "hello";
+		String s2 = "How";
+		String s3 = "are you?";
+		System.out.println(logic.findMax(s1, s2, s3));
+		System.out.println("-----------------------------");
 	}
 }
