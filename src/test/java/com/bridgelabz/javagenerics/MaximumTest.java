@@ -24,4 +24,14 @@ public class MaximumTest {
 		int expectedResult = 15;
 		Assert.assertEquals(expectedResult, actualResult);
 	}
+
+	// Test Case for the Integer where max_Value at Third Position
+	@Test
+	public void integerAtThirdPosition() {
+		MaximumLogic log = new MaximumLogic();
+		int actualResult = log.findMax(11, 10, 12);
+		System.out.println("Third Position is: " + actualResult);
+		int expectedResult = 12;
+		Assert.assertEquals(expectedResult, actualResult);
+	}
 }
