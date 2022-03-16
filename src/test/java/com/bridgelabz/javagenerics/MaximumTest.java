@@ -66,7 +66,16 @@ public class MaximumTest {
 	@Test
 	public void stringAtFirstPosition() {
 		MaximumLogic log = new MaximumLogic();
-		String actualResult = log.findMax("Peach", "banana", "apple");
+		String actualResult = log.findMax("Banana", "Peach", "Apple");
+		String expectedResult = "Peach";
+		Assert.assertEquals(expectedResult, actualResult);
+	}
+
+	// Test Case for the String where max_Value at Second Position
+	@Test
+	public void stringAtSecondPosition() {
+		MaximumLogic log = new MaximumLogic();
+		String actualResult = log.findMax("Banana", "Peach", "Apple");
 		String expectedResult = "Peach";
 		Assert.assertEquals(expectedResult, actualResult);
 	}
