@@ -80,4 +80,13 @@ public class MaximumTest {
 		Assert.assertEquals(expectedResult, actualResult);
 	}
 
+	//  Test Case for the String where max_Value at third Position
+	@Test
+	public void stringAtThirdPosition() {
+		MaximumLogic log = new MaximumLogic();
+		String actualResult = log.findMax("Banana", "Apple", "Peach");
+		String expectedResult = "Peach";
+		Assert.assertEquals(expectedResult, actualResult);
+	}
+
 }
