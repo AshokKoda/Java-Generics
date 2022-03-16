@@ -43,4 +43,13 @@ public class MaximumTest {
 		float expectedResult = 11.2f;
 		Assert.assertEquals(expectedResult, actualResult);
 	}
+
+	// Test Case for the float where max_Value at second Position
+	@Test
+	public void given3FloatValue_Case2_WhenGetMaximumNO_ShouldReturnCorrectMaxValue() {
+		MaximumLogic log = new MaximumLogic();
+		float actualResult = log.findMax(11.2f, 12.3f, 9.4f);
+		float expectedResult = 12.3f;
+		Assert.assertEquals(expectedResult, actualResult);
+	}
 }
