@@ -61,4 +61,14 @@ public class MaximumTest {
 		float expectedResult = 99.4f;
 		Assert.assertEquals(expectedResult, actualResult);
 	}
+
+	// Test Case for the String where max_Value at First Position
+	@Test
+	public void stringAtFirstPosition() {
+		MaximumLogic log = new MaximumLogic();
+		String actualResult = log.findMax("Peach", "banana", "apple");
+		String expectedResult = "Peach";
+		Assert.assertEquals(expectedResult, actualResult);
+	}
+
 }
